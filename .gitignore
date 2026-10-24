@@ -1,0 +1,5 @@
+# asset pipeline scratch (extracted originals, rebuilt images, previews)
+tools/build/
+__pycache__/
+*.pyc
+.DS_Store
