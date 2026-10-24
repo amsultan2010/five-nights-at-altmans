@@ -1,0 +1,6 @@
+numpy>=1.26
+scipy>=1.11
+pillow>=10.0
+opencv-python-headless>=4.9
+scikit-image>=0.22
+playwright>=1.40   # only for tests/smoke_test.py
