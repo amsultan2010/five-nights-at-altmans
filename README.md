@@ -8,6 +8,8 @@ anyone into your office.
 
 ## Play
 
+Play the game at <https://fnaa.grok.me>.
+
 The whole game is static files, so any web server works:
 
 ```bash
@@ -18,9 +20,6 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000>. Opening `index.html` straight from disk won't work,
 since the game loads its assets with `fetch`.
-
-To put it online, enable **GitHub Pages** (Settings > Pages > Deploy from branch > `main`, `/ (root)`)
-or drop the folder on any static host such as Vercel or Netlify.
 
 ## The cast
 
@@ -60,7 +59,7 @@ beat that for Custom Night.
 
 ```
 index.html        the game (engine, scenes, input, audio) in one page
-packs/            images and sounds, indexed by packs/manifest.json
+pcks/            images and sounds, indexed by packs/manifest.json
 tools/            Python scripts that made every swapped image (see tools/README.md)
 docs/             screenshots
 ```
