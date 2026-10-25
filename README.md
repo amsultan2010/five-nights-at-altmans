@@ -59,7 +59,7 @@ beat that for Custom Night.
 
 ```
 index.html        the game (engine, scenes, input, audio) in one page
-pcks/            images and sounds, indexed by packs/manifest.json
+packs/            images and sounds, indexed by packs/manifest.json
 tools/            Python scripts that made every swapped image (see tools/README.md)
 docs/             screenshots
 ```
